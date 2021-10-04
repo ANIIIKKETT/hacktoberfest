@@ -1,0 +1,19 @@
+import turtle
+squary=turtle.Turtle()
+s=turtle.Turtle()
+s1=turtle.Turtle()
+s2=turtle.Turtle()
+squary.speed(5000)
+squary.color('black')
+s.color('black')
+for i in range(500):
+    squary.backward(i)
+    squary.left(160)
+s.speed(50000)
+for i in range(700):
+    s.forward(i)
+    s.left(91)
+
+
+
+
